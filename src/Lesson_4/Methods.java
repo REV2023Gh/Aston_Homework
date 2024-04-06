@@ -1,4 +1,4 @@
-package Lessons.Lesson_4;
+package Lesson_4;
 
 public class Methods {
     //№1
