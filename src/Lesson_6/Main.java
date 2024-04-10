@@ -14,8 +14,7 @@ public class Main {
         System.out.println(Arrays.toString(personArray));
     }
 
-    Park.Attractions.getInfo();
-    Park.Attractions.getCost();
-    Park.Attractions.getWorking_hours();
+    Park park = new Park();
+    Park.Attractions attraction = park.new Attractions("Добро пожаловать в наш парк!", 10-12, 50);
 
 }
