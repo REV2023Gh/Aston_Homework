@@ -1,0 +1,80 @@
+Index: Lesson_7/Animal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_7/Animal.java b/Lesson_7/Lesson_7/Animal.java
+rename from Lesson_7/Animal.java
+rename to Lesson_7/Lesson_7/Animal.java
+--- a/Lesson_7/Animal.java	(revision 1a3facff2a9e6661ec99bdc350a36104989b82e7)
++++ b/Lesson_7/Lesson_7/Animal.java	(date 1712753982649)
+@@ -1,4 +1,4 @@
+-package Lesson_7;
++package Lesson_7.Lesson_7;
+ 
+ public class Animal {
+     static int countAnimal = 0 ;
+Index: Lesson_7/Cat.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_7/Cat.java b/Lesson_7/Lesson_7/Cat.java
+rename from Lesson_7/Cat.java
+rename to Lesson_7/Lesson_7/Cat.java
+--- a/Lesson_7/Cat.java	(revision 1a3facff2a9e6661ec99bdc350a36104989b82e7)
++++ b/Lesson_7/Lesson_7/Cat.java	(date 1712753982673)
+@@ -1,4 +1,4 @@
+-package Lesson_7;
++package Lesson_7.Lesson_7;
+ 
+ public class Cat extends Animal {
+     static int countCat = 0;
+Index: Lesson_7/Calculation.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_7/Calculation.java b/Lesson_7/Lesson_7/Calculation.java
+rename from Lesson_7/Calculation.java
+rename to Lesson_7/Lesson_7/Calculation.java
+--- a/Lesson_7/Calculation.java	(revision 1a3facff2a9e6661ec99bdc350a36104989b82e7)
++++ b/Lesson_7/Lesson_7/Calculation.java	(date 1712753982642)
+@@ -1,4 +1,4 @@
+-package Lesson_7;
++package Lesson_7.Lesson_7;
+ 
+ 
+ public interface Shape{
+Index: Lesson_7/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_7/Main.java b/Lesson_7/Lesson_7/Main.java
+rename from Lesson_7/Main.java
+rename to Lesson_7/Lesson_7/Main.java
+--- a/Lesson_7/Main.java	(revision 1a3facff2a9e6661ec99bdc350a36104989b82e7)
++++ b/Lesson_7/Lesson_7/Main.java	(date 1712753982665)
+@@ -1,4 +1,4 @@
+-package Lesson_7;
++package Lesson_7.Lesson_7;
+ 
+ 
+ public static void main(String[] args) {
+Index: Lesson_7/Dog.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lesson_7/Dog.java b/Lesson_7/Lesson_7/Dog.java
+rename from Lesson_7/Dog.java
+rename to Lesson_7/Lesson_7/Dog.java
+--- a/Lesson_7/Dog.java	(revision 1a3facff2a9e6661ec99bdc350a36104989b82e7)
++++ b/Lesson_7/Lesson_7/Dog.java	(date 1712753982656)
+@@ -1,4 +1,4 @@
+-package Lesson_7;
++package Lesson_7.Lesson_7;
+ 
+ public class Dog extends Animal {
+     static int countDog = 0;
